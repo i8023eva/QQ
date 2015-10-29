@@ -12,6 +12,9 @@
 		14C0FAFC1BE20BB9004BAAB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C0FAF61BE20BB9004BAAB2 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
 		14C0FAFD1BE20BB9004BAAB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C0FAF71BE20BB9004BAAB2 /* main.m */; settings = {ASSET_TAGS = (); }; };
 		14C0FAFE1BE20BB9004BAAB2 /* friends.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14C0FAF91BE20BB9004BAAB2 /* friends.plist */; settings = {ASSET_TAGS = (); }; };
+		14C0FB041BE20CAA004BAAB2 /* Friends.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C0FB031BE20CAA004BAAB2 /* Friends.m */; settings = {ASSET_TAGS = (); }; };
+		14C0FB071BE20CB9004BAAB2 /* Group.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C0FB061BE20CB9004BAAB2 /* Group.m */; settings = {ASSET_TAGS = (); }; };
+		14C0FB0A1BE2151D004BAAB2 /* FriendTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C0FB091BE2151D004BAAB2 /* FriendTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
 		14C747921BDDB78700AB9B71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14C747901BDDB78700AB9B71 /* Main.storyboard */; };
 		14C747941BDDB78700AB9B71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14C747931BDDB78700AB9B71 /* Assets.xcassets */; };
 		14C747971BDDB78700AB9B71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14C747951BDDB78700AB9B71 /* LaunchScreen.storyboard */; };
@@ -45,6 +48,12 @@
 		14C0FAF61BE20BB9004BAAB2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		14C0FAF71BE20BB9004BAAB2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		14C0FAF91BE20BB9004BAAB2 /* friends.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = friends.plist; sourceTree = "<group>"; };
+		14C0FB021BE20CAA004BAAB2 /* Friends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Friends.h; sourceTree = "<group>"; };
+		14C0FB031BE20CAA004BAAB2 /* Friends.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Friends.m; sourceTree = "<group>"; };
+		14C0FB051BE20CB9004BAAB2 /* Group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Group.h; sourceTree = "<group>"; };
+		14C0FB061BE20CB9004BAAB2 /* Group.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Group.m; sourceTree = "<group>"; };
+		14C0FB081BE2151D004BAAB2 /* FriendTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendTableViewCell.h; sourceTree = "<group>"; };
+		14C0FB091BE2151D004BAAB2 /* FriendTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendTableViewCell.m; sourceTree = "<group>"; };
 		14C747841BDDB78700AB9B71 /* QQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14C747911BDDB78700AB9B71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		14C747931BDDB78700AB9B71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -105,6 +114,10 @@
 		14C0FAF01BE20BB9004BAAB2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				14C0FB021BE20CAA004BAAB2 /* Friends.h */,
+				14C0FB031BE20CAA004BAAB2 /* Friends.m */,
+				14C0FB051BE20CB9004BAAB2 /* Group.h */,
+				14C0FB061BE20CB9004BAAB2 /* Group.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -114,6 +127,8 @@
 			children = (
 				14C0FAF21BE20BB9004BAAB2 /* HeadView.h */,
 				14C0FAF31BE20BB9004BAAB2 /* HeadView.m */,
+				14C0FB081BE2151D004BAAB2 /* FriendTableViewCell.h */,
+				14C0FB091BE2151D004BAAB2 /* FriendTableViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -333,7 +348,10 @@
 				14C0FAFB1BE20BB9004BAAB2 /* HeadView.m in Sources */,
 				14C0FAFA1BE20BB9004BAAB2 /* ViewController.m in Sources */,
 				14C0FAFD1BE20BB9004BAAB2 /* main.m in Sources */,
+				14C0FB071BE20CB9004BAAB2 /* Group.m in Sources */,
+				14C0FB041BE20CAA004BAAB2 /* Friends.m in Sources */,
 				14C0FAFC1BE20BB9004BAAB2 /* AppDelegate.m in Sources */,
+				14C0FB0A1BE2151D004BAAB2 /* FriendTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
